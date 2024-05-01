@@ -29,14 +29,7 @@ body {
 }
 
 #app {
-  background: linear-gradient(
-    240deg,
-    $color-red-step1 0.13%,
-    $color-red-step2 26.19%,
-    $color-red-step3 52.6%,
-    $color-red-step4 79.08%,
-    $color-red-step5 100%
-  );
+  background: #19ae5d;
   color: $color-text-light;
   padding: 0 3.125rem;
   min-height: 100%;
@@ -115,4 +108,16 @@ a {
 
 .align--right {
   text-align: right;
+}
+
+.powered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.festeve-logo {
+  margin-left: 16px;
+  height: 50px;
 }
